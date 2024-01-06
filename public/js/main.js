@@ -1,11 +1,11 @@
-import house from "../../data/data.json"
+import house from "../../data/data.json";
+document.addEventListener("DOMContentLoaded", loadFullFunctions);
 
-const housesdiv  = document.querySelector('#housesdiv');
-console.log(housesdiv);
+function loadFullFunctions(e) {
+  const housesdiv = document.querySelector("#housesdiv");
 
-
-house.forEach((el) => {
-   housesdiv.innerHTML += `<div class="w-[350px] mx-auto mt-9">
+  house.forEach((el) => {
+    housesdiv.innerHTML += `<div class="w-[350px] mx-auto mt-9">
    <div
      class="rounded-tl-[30px] bg-gray-50 p-3 hover:shadow-lg cursor-pointer"
    >
@@ -43,5 +43,22 @@ house.forEach((el) => {
      </h3>
    </div>
  </div>
- `
-})
+ `;
+  });
+
+  const Aboutsection = document.querySelector("#Aboutsection");
+  const aboutBtn = document.querySelector("#aboutBtn");
+  const homebtn = document.querySelector("#homebtn");
+
+  aboutBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    Aboutsection.classList.remove("hidden");
+  });
+
+  homebtn.addEventListener("click", (e) => {
+   Aboutsection.classList.add("hidden")
+   location.href = "./index.html"
+  })
+
+
+}
