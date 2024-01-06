@@ -5,6 +5,8 @@ function loadFullFunctions(e) {
   const housesdiv = document.querySelector("#housesdiv");
 
   house.forEach((el) => {
+
+
     housesdiv.innerHTML += `<div class="w-[350px] mx-auto mt-9">
    <div
      class="rounded-tl-[30px] bg-gray-50 p-3 hover:shadow-lg cursor-pointer"
