@@ -6,11 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+bck.html
 node_modules
 dist
 dist-ssr
 *.local
+Untitled-1.md
 
 # Editor directories and files
 .vscode/*

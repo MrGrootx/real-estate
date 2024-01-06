@@ -1,0 +1,47 @@
+import house from "../../data/data.json"
+
+const housesdiv  = document.querySelector('#housesdiv');
+console.log(housesdiv);
+
+
+house.forEach((el) => {
+   housesdiv.innerHTML += `<div class="w-[350px] mx-auto mt-9">
+   <div
+     class="rounded-tl-[30px] bg-gray-50 p-3 hover:shadow-lg cursor-pointer"
+   >
+     <div class="flex justify-center">
+       <img src=${el.img} />
+     </div>
+     <div class="text-white mt-4">
+       <span class="bg-[#22c55e] rounded px-2">House</span>
+     </div>
+     <h2 class="text-xl font-semibold text-gray-900 mt-5">
+     ${el.address}
+     </h2>
+     <div class="flex mt-3">
+       <div class="mr-3">
+         <i class="fa fa-bed" aria-hidden="true"></i>
+         <span>${el.bedroom}</span>
+       </div>
+       <!-- icon 2-->
+       <div class="mr-3">
+         <i class="fa fa-bath" aria-hidden="true"></i>
+         <span>${el.bathroom}</span>
+       </div>
+       <!-- icon 3-->
+       <div class="flex items-center">
+         <i class="fa fa-table" aria-hidden="true"></i>
+         <div>
+           <span class="ml-2">${el.squarefeet}</span>
+           <span>sq ft</span>
+         </div>
+       </div>
+     </div>
+     <!-- Amount -->
+     <h3 class="font-semibold text-purple-700 mt-5 text-[19px]">
+     $${el.price}
+     </h3>
+   </div>
+ </div>
+ `
+})
