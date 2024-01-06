@@ -1,4 +1,4 @@
-import house from "../../data/data.json";
+import house from "../js/data.json";
 document.addEventListener("DOMContentLoaded", loadFullFunctions);
 
 function loadFullFunctions(e) {
@@ -9,9 +9,9 @@ function loadFullFunctions(e) {
    <div
      class="rounded-tl-[30px] bg-gray-50 p-3 hover:shadow-lg cursor-pointer"
    >
-     <div class="flex justify-center">
-       <img src=${el.img} />
-     </div>
+   <div class="flex justify-center">
+   <img src="${el.img}" alt="House Image" />
+ </div>
      <div class="text-white mt-4">
        <span class="bg-[#22c55e] rounded px-2">House</span>
      </div>
@@ -56,9 +56,7 @@ function loadFullFunctions(e) {
   });
 
   homebtn.addEventListener("click", (e) => {
-   Aboutsection.classList.add("hidden")
-   location.href = "./index.html"
-  })
-
-
+    Aboutsection.classList.add("hidden");
+    location.href = "./index.html";
+  });
 }
