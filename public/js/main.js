@@ -6,6 +6,8 @@ function loadFullFunctions(e) {
 
   house.forEach((el) => {
 
+    console.log(el.img);
+   
 
     housesdiv.innerHTML += `<div class="w-[350px] mx-auto mt-9">
    <div
