@@ -5,7 +5,7 @@
     "bedroom": 6,
     "bathroom": 3,
     "squarefeet": 4200,
-    "price": 110000,
+    "price": 1100000,
     "img": "./img/houses/house1.png"
   },
   {
@@ -14,7 +14,7 @@
     "bedroom": 6,
     "bathroom": 3,
     "squarefeet": 4200,
-    "price": 190000,
+    "price": 1900000,
     "img": "./img/houses/house2.png"
   },
   {
@@ -23,7 +23,7 @@
     "bedroom": 6,
     "bathroom": 5,
     "squarefeet": 5200,
-    "price": 2000000,
+    "price": 200000,
     "img": "./img/houses/house3.png"
   },
   {
@@ -32,7 +32,7 @@
     "bedroom": 6,
     "bathroom": 4,
     "squarefeet": 5200,
-    "price": 5500000,
+    "price": 550000,
     "img": "./img/houses/house4.png"
   },
   {
@@ -50,7 +50,7 @@
     "bedroom": 8,
     "bathroom": 4,
     "squarefeet": 8200,
-    "price": 77000000,
+    "price": 7700000,
     "img": "./img/houses/house6.png"
   },
   {
@@ -95,7 +95,7 @@
     "bedroom": 3,
     "bathroom": 2,
     "squarefeet": 2200,
-    "price": 300000,
+    "price": 120000,
     "img": "./img/houses/house11.png"
   },
   {
@@ -113,7 +113,7 @@
     "bedroom": 8,
     "bathroom": 4,
     "squarefeet": 8200,
-    "price": 6700000,
+    "price": 6750000,
     "img": "./img/houses/house12.png"
   }
 ]
